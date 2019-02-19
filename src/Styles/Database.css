@@ -1,0 +1,52 @@
+.dataHeading {
+    text-align: left;
+    margin-left:0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #6d6d6d;
+    
+}
+.folders {
+    width: 800px;
+}
+.database {
+    display:flex;  
+    flex-wrap:wrap;
+    justify-content: left;
+}
+.schoolListCard {
+    min-width: 270px;
+}
+@media only screen and (max-width: 750px) {
+    .folders {
+        width: auto;
+    }
+}
+@media only screen and (max-width: 637px) {
+    .database {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+}
+
+
+.root {
+    margin-top: 16px;
+    background-color: white;
+    width: 100%;
+    position: 'relative';
+    min-height: 'auto';
+}
+
+@media only screen and (min-width: 1070px) {
+    .root {
+        margin-top: 16px;
+        background-color: white;
+        width: 80px;;
+        position: 'relative';
+        min-height: 'auto';
+    }
+};
