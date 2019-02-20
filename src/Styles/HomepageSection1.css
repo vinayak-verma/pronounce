@@ -1,0 +1,38 @@
+.HomepageSection1 {
+    background-color: #3c3c3c;
+    height: 92vh;
+    width: 100%;
+  }
+  .HomepageSection1-h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 8vh;
+  }
+  .briefParagraph {
+      color: white;
+      font-size: 20px;
+      text-align: center;
+  }
+  .HomepageSection1-GoToNameHubButton {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 18px;
+      margin-top: 4vh;	
+      padding: 5px;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+    }
+  .HomepageSection1-exploreButton {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+      margin-top: 4vh;
+      padding-left: 6%;
+      padding-right: 6%;
+  }
+  

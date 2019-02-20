@@ -178,7 +178,7 @@ class Paperbase extends React.Component {
             </Hidden>
           </nav>
           <div className={classes.appContent}>
-            <Header onDrawerToggle={this.handleDrawerToggle} />
+            <Header registerMode={this.props.registerMode} onDrawerToggle={this.handleDrawerToggle} />
             <main className={classes.mainContent}>
               <Content />
             </main>
